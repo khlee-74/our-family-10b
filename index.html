@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#102b50">
+<meta name="description" content="우리 가족의 경제적 자유 프로젝트">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/yulim-logo.png">
+<title>OUR FAMILY 10B</title>
+<style>
+:root{--navy:#102b50;--navy2:#173e68;--gold:#dfc17b;--ink:#182638;--muted:#718096;--line:#e6ebf1;--bg:#f4f6f9;--white:#fff;--green:#18845b;--red:#c24c4c}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.app{max-width:1120px;margin:auto;padding:16px}.hero{background:linear-gradient(125deg,#102b50,#1b5687);color:white;border-radius:22px;padding:20px 22px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:240px;height:240px;border:1px solid #ffffff22;border-radius:50%;right:-70px;top:-100px}.brand{display:flex;align-items:center;gap:12px}.brand img{width:92px;height:auto;background:#fff;border-radius:8px;padding:4px}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--gold);font-weight:800}.hero h1{font-size:clamp(25px,5vw,38px);margin:10px 0 4px;letter-spacing:.5px}.hero p{margin:0;color:#e1e9f3;font-size:14px}.hero .quote{margin-top:18px;padding-top:14px;border-top:1px solid #ffffff2c;font-weight:600;color:#fff}.topline{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:14px 2px;color:var(--muted);font-size:12px}.nav{display:flex;gap:7px;overflow:auto;padding:3px 0 12px;scrollbar-width:thin}.nav button{border:1px solid var(--line);background:white;color:#42536a;border-radius:999px;padding:9px 13px;white-space:nowrap;font-size:13px}.nav button.active{background:var(--navy);border-color:var(--navy);color:white}.panel{display:none}.panel.active{display:block}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card{background:white;border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 3px 12px #132b4a08}.card h3{font-size:14px;margin:0 0 10px;color:#506176}.metric{font-size:clamp(22px,4vw,30px);font-weight:800;letter-spacing:-1px}.sub{font-size:12px;color:var(--muted);margin-top:5px}.section-title{display:flex;justify-content:space-between;align-items:center;margin:20px 2px 10px}.section-title h2{font-size:18px;margin:0}.btn{border:0;border-radius:10px;padding:10px 13px;background:var(--navy);color:white;font-weight:650;font-size:13px}.btn.gold{background:var(--gold);color:#382d17}.btn.light{background:#edf2f7;color:#33465c}.btn.danger{background:#fff0f0;color:var(--red)}.btn.small{padding:7px 10px;font-size:12px}.progress{height:9px;border-radius:20px;background:#edf1f5;overflow:hidden;margin-top:10px}.progress span{display:block;height:100%;background:linear-gradient(90deg,#b9964f,#e6cf94);border-radius:20px}.row{display:flex;align-items:center;justify-content:space-between;gap:10px}.muted{color:var(--muted)}.member-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.member{border-top:3px solid var(--gold)}.member .avatar{width:38px;height:38px;border-radius:12px;background:#eef3f8;display:grid;place-items:center;font-size:20px;margin-bottom:9px}.table{width:100%;border-collapse:collapse;font-size:13px}.table td,.table th{padding:10px 7px;border-bottom:1px solid var(--line);text-align:left}.table th{color:var(--muted);font-weight:600}.formgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.field{display:flex;flex-direction:column;gap:5px;font-size:12px;color:#53657a}.field input,.field select,.field textarea{width:100%;border:1px solid #dce3eb;border-radius:9px;padding:10px;background:#fff;color:var(--ink);min-width:0}.field textarea{min-height:75px;resize:vertical}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.empty{padding:22px;text-align:center;color:var(--muted);font-size:13px}.pill{font-size:11px;padding:4px 8px;border-radius:20px;background:#edf3f8;color:#48617b}.notice{background:#fff9e9;border:1px solid #f1e3bd;padding:12px;border-radius:12px;color:#68552c;font-size:12px;line-height:1.6}.list{display:grid;gap:9px}.item{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff}.item p{margin:5px 0 0;font-size:12px;color:var(--muted)}.barrow{display:grid;grid-template-columns:75px 1fr 90px;gap:8px;align-items:center;font-size:12px;margin:10px 0}.bar{height:10px;background:#edf1f5;border-radius:20px;overflow:hidden}.bar i{display:block;height:100%;background:#c9a75e}.footer{text-align:center;color:#8a96a5;font-size:11px;padding:24px 8px}.hide{display:none!important}
+@media(max-width:760px){.app{padding:10px}.hero{padding:17px;border-radius:17px}.brand img{width:76px}.grid{grid-template-columns:repeat(2,1fr)}.member-grid{grid-template-columns:repeat(2,1fr)}.formgrid{grid-template-columns:1fr}.card{padding:13px}.metric{font-size:24px}.section-title{margin-top:17px}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="hero">
+  <div class="brand"><img src="assets/yulim-logo.png" alt="YULIM Infotech"><div><div class="eyebrow">FAMILY WEALTH PROJECT</div><div style="font-size:12px;color:#dce6f1">OUR FAMILY · ONE DREAM · ONE JOURNEY</div></div></div>
+  <h1>OUR FAMILY 10B</h1>
+  <p>함께 모으고, 함께 성장하고, 함께 나누는 10년</p>
+  <div class="quote">“더 많이 소유하는 것보다, 더 많은 선택권을 가진 가족.”</div>
+</header>
+<div class="topline"><span id="today"></span><span>오프라인 우선 · 가족 자산 성장 기록</span></div>
+<nav class="nav" id="nav">
+<button class="active" data-tab="home">홈</button><button data-tab="people">가족 자산</button><button data-tab="record">저축 기록</button><button data-tab="habits">매일 3분</button><button data-tab="missions">가족 미션</button><button data-tab="study">부자 공부</button><button data-tab="roadmap">10년 로드맵</button><button data-tab="giving">나눔</button><button data-tab="journal">성장 연대기</button><button data-tab="backup">백업·설정</button>
+</nav>
+
+<section class="panel active" id="home">
+ <div class="grid">
+  <div class="card"><h3>가족 순자산</h3><div class="metric" id="totalNet">₩0</div><div class="sub">가족 자산 합계 - 부채</div></div>
+  <div class="card"><h3>10억 목표 달성률</h3><div class="metric" id="rate">0%</div><div class="progress"><span id="ratebar" style="width:0%"></span></div><div class="sub">목표 순자산 10억 원</div></div>
+  <div class="card"><h3>이번 달 저축</h3><div class="metric" id="monthSave">₩0</div><div class="sub">이번 달 등록한 저축 기록</div></div>
+  <div class="card"><h3>목표까지 남은 금액</h3><div class="metric" id="remaining">₩1,000,000,000</div><div class="sub">현재 순자산 기준</div></div>
+ </div>
+ <div class="section-title"><h2>우리 가족 네 사람</h2><span class="pill">각자의 목표 · 하나의 응원</span></div>
+ <div class="member-grid" id="homeMembers"></div>
+ <div class="section-title"><h2>이번 달 가족 약속</h2><button class="btn small light" onclick="showTab('missions')">미션 보기</button></div><div class="card" id="homeMission"></div>
+ <div class="section-title"><h2>자산 성장 흐름</h2></div><div class="card" id="homeChart"></div>
+ <div class="notice" style="margin-top:12px">※ 이 앱은 가족의 기록과 계획을 돕는 도구입니다. 수익이나 10억 원 달성을 보장하지 않습니다. 자산·부채는 실제 금융자료를 확인해 직접 입력하세요.</div>
+</section>
+
+<section class="panel" id="people">
+ <div class="section-title"><h2>가족 구성원별 자산</h2><button class="btn small" onclick="openMemberForm()">구성원 수정</button></div>
+ <div class="member-grid" id="memberCards"></div>
+ <div class="section-title"><h2>자산·부채 입력</h2></div>
+ <div class="card"><div class="formgrid">
+  <label class="field">구성원<select id="balMember"></select></label>
+  <label class="field">구분<select id="balType"><option value="asset">자산</option><option value="debt">부채</option></select></label>
+  <label class="field">항목명<input id="balName" placeholder="예: 예금, 자동차, 주택담보대출"></label>
+  <label class="field">금액(원)<input id="balAmount" type="number" min="0" placeholder="금액"></label>
+ </div><div class="actions"><button class="btn" onclick="addBalance()">자산/부채 저장</button></div></div>
+ <div class="section-title"><h2>등록 내역</h2></div><div class="card" id="balanceList"></div>
+</section>
+
+<section class="panel" id="record">
+ <div class="section-title"><h2>종잣돈 저축 기록</h2><span class="pill">저축은 습관이자 선택권</span></div>
+ <div class="card"><div class="formgrid">
+  <label class="field">누가 저축했나요?<select id="saveMember"></select></label>
+  <label class="field">날짜<input id="saveDate" type="date"></label>
+  <label class="field">저축 금액(원)<input id="saveAmount" type="number" min="1" placeholder="예: 300000"></label>
+  <label class="field">메모<input id="saveMemo" placeholder="예: 아르바이트 급여 저축"></label>
+ </div><div class="actions"><button class="btn" onclick="addSaving()">저축 기록 추가</button></div></div>
+ <div class="section-title"><h2>저축 누적 현황</h2></div><div class="card" id="savingSummary"></div>
+ <div class="section-title"><h2>최근 저축 기록</h2></div><div class="card" id="savingList"></div>
+</section>
+
+<section class="panel" id="habits">
+ <div class="section-title"><h2>매일 3분 경제 습관</h2><span class="pill">작은 행동의 반복</span></div>
+ <div class="card"><p class="muted" style="font-size:13px">하루에 세 가지만 확인해도 충분해요. 완벽함보다 꾸준함이 중요합니다.</p>
+ <div id="habitChecks" class="list"></div><div class="actions"><button class="btn" onclick="saveHabits()">오늘 실천 저장</button></div><p class="sub" id="habitStatus"></p></div>
+ <div class="section-title"><h2>이번 달 실천 기록</h2></div><div class="card" id="habitStats"></div>
+</section>
+
+<section class="panel" id="missions">
+ <div class="section-title"><h2>가족 공동 미션</h2><button class="btn small" onclick="addMissionPrompt()">미션 추가</button></div>
+ <div class="card"><div id="missionList"></div></div>
+ <div class="section-title"><h2>우리 가족의 약속</h2></div><div class="card"><div class="notice">서로의 저축액을 비교하거나 압박하지 않기. 각자의 상황에 맞게 목표를 정하고, 실천과 성장을 함께 축하하기.</div></div>
+</section>
+
+<section class="panel" id="study">
+ <div class="section-title"><h2>부자 공부방</h2><span class="pill">하루 한 가지 생각</span></div><div id="lesson" class="card"></div><div class="actions"><button class="btn light" onclick="nextLesson(-1)">이전</button><button class="btn" onclick="nextLesson(1)">다음 공부</button><button class="btn gold" onclick="markLesson()">오늘 읽음 표시</button></div>
+ <div class="section-title"><h2>나의 생각 기록</h2></div><div class="card"><label class="field">오늘 배운 점<textarea id="lessonNote" placeholder="오늘 배운 내용을 우리 가족의 생활에 어떻게 적용할까?"></textarea></label><div class="actions"><button class="btn" onclick="saveLessonNote()">생각 저장</button></div></div>
+</section>
+
+<section class="panel" id="roadmap">
+ <div class="section-title"><h2>2036 가족 자산 로드맵</h2></div>
+ <div class="card"><div class="formgrid">
+  <label class="field">목표 순자산(원)<input id="goalAmount" type="number" value="1000000000"></label>
+  <label class="field">목표 날짜<input id="goalDate" type="date" value="2036-10-31"></label>
+ </div><div class="actions"><button class="btn" onclick="saveGoal()">목표 저장</button></div><p class="sub">목표는 언제든 현실에 맞게 조정할 수 있습니다.</p></div>
+ <div class="section-title"><h2>연도별 점검</h2><button class="btn small light" onclick="addCheckpoint()">점검 기록 추가</button></div><div class="card" id="checkpointList"></div>
+ <div class="section-title"><h2>현재 속도로 목표에 도달하려면?</h2></div><div class="card" id="pace"></div>
+</section>
+
+<section class="panel" id="giving">
+ <div class="section-title"><h2>나눔 프로젝트</h2></div>
+ <div class="card"><h3>우리가 부자가 되고 싶은 이유</h3><p>가족의 자유와 행복을 지키고, 도움이 필요한 아이들과 이웃에게 실질적인 도움을 주기 위해.</p>
+ <label class="field">나눔 아이디어<textarea id="givingIdea" placeholder="예: 아이들의 교육비 지원, 학용품, 환경보호 활동"></textarea></label><div class="actions"><button class="btn" onclick="saveGiving()">아이디어 저장</button></div></div>
+ <div class="section-title"><h2>나눔 실천 기록</h2><button class="btn small" onclick="addGiving()">실천 추가</button></div><div class="card" id="givingList"></div>
+</section>
+
+<section class="panel" id="journal">
+ <div class="section-title"><h2>우리 가족 성장 연대기</h2><button class="btn small" onclick="addJournal()">기록 추가</button></div><div class="card"><p class="muted" style="font-size:13px">돈의 기록뿐 아니라 함께한 시간과 작은 성취도 남겨두세요.</p><div id="journalList"></div></div>
+</section>
+
+<section class="panel" id="backup">
+ <div class="section-title"><h2>백업 · 데이터 관리</h2></div>
+ <div class="card"><h3>가족 데이터 내보내기</h3><p class="sub">이 기기의 데이터를 JSON 파일로 저장합니다. 정기적으로 백업하세요.</p><button class="btn" onclick="exportData()">백업 파일 다운로드</button></div>
+ <div class="card" style="margin-top:12px"><h3>가족 데이터 가져오기</h3><p class="sub">백업 파일을 가져오면 현재 데이터와 합쳐집니다. 같은 기록은 중복되지 않도록 처리합니다.</p><input type="file" id="importFile" accept=".json,application/json"><div class="actions"><button class="btn" onclick="importData()">백업 파일 가져오기</button></div></div>
+ <div class="card" style="margin-top:12px"><h3>앱 사용 안내</h3><ul style="font-size:13px;line-height:1.8;color:#526176"><li>데이터는 현재 브라우저의 기기에 저장됩니다.</li><li>브라우저 데이터 삭제 또는 기기 변경 전에 반드시 백업하세요.</li><li>가족 간 실시간 자동 동기화는 제공하지 않습니다.</li><li>가족 공유 시 백업 파일을 안전한 방법으로 전달하세요.</li><li>공용 기기에서는 개인정보와 금융정보 입력에 주의하세요.</li></ul></div>
+ <div class="card" style="margin-top:12px"><h3>초기 데이터로 되돌리기</h3><p class="sub">모든 기록이 삭제됩니다. 먼저 백업하세요.</p><button class="btn danger" onclick="resetData()">초기화</button></div>
+</section>
+<div class="footer">OUR FAMILY 10B · Built for a family's long journey<br>YULIM Infotech · Offline-first family wealth planner</div>
+</div>
+<script>
+const KEY='our-family-10b-v1';
+const defaultData={
+ members:[{id:'dad',name:'아빠',icon:'👨',target:1000000000},{id:'mom',name:'엄마',icon:'👩',target:0},{id:'son1',name:'큰아들',icon:'🧑',target:0},{id:'son2',name:'작은아들',icon:'👦',target:0}],
+ balances:[],savings:[],habits:{},missions:[
+ {id:'m1',title:'이번 달 각자 저축 기록하기',detail:'각자의 형편에 맞게 저축하고 기록하기',done:false},
+ {id:'m2',title:'불필요한 소비 하루 미루기',detail:'사고 싶은 물건은 하루 뒤 다시 판단하기',done:false},
+ {id:'m3',title:'가족 경제 대화 10분',detail:'이번 달 배운 점과 다음 달 목표 나누기',done:false}],
+ goal:1000000000,goalDate:'2036-10-31',checkpoints:[],givingIdea:'',giving:[],journal:[],lessonIndex:0,lessonNotes:[],readLessons:[]
+};
+let data=load();
+function load(){try{return {...structuredClone(defaultData),...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch(e){return structuredClone(defaultData)}}
+function save(){localStorage.setItem(KEY,JSON.stringify(data));renderAll()}
+const won=n=>'₩'+Math.round(Number(n)||0).toLocaleString('ko-KR');
+const num=n=>Math.max(0,Number(n)||0);
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function netFor(id){let a=data.balances.filter(x=>x.member===id&&x.type==='asset').reduce((s,x)=>s+x.amount,0),d=data.balances.filter(x=>x.member===id&&x.type==='debt').reduce((s,x)=>s+x.amount,0);return a-d}
+function totalNet(){return data.members.reduce((s,m)=>s+netFor(m.id),0)}
+function totalSavings(id){return data.savings.filter(x=>!id||x.member===id).reduce((s,x)=>s+x.amount,0)}
+function populateSelects(){['balMember','saveMember'].forEach(id=>{let el=document.getElementById(id),v=el.value;el.innerHTML=data.members.map(m=>`<option value="${m.id}">${esc(m.name)}</option>`).join('');if(data.members.some(m=>m.id===v))el.value=v})}
+function showTab(tab){document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id===tab));document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));window.scrollTo({top:0,behavior:'smooth'})}
+document.getElementById('nav').addEventListener('click',e=>{let b=e.target.closest('button[data-tab]');if(b)showTab(b.dataset.tab)});
+function renderHome(){
+ let net=totalNet(),goal=num(data.goal),pct=goal?Math.min(100,Math.max(0,net/goal*100)):0,month=new Date().toISOString().slice(0,7);
+ document.getElementById('totalNet').textContent=won(net);document.getElementById('rate').textContent=pct.toFixed(1)+'%';document.getElementById('ratebar').style.width=pct+'%';document.getElementById('monthSave').textContent=won(data.savings.filter(x=>x.date?.startsWith(month)).reduce((s,x)=>s+x.amount,0));document.getElementById('remaining').textContent=won(Math.max(0,goal-net));
+ document.getElementById('homeMembers').innerHTML=data.members.map(m=>`<div class="card member"><div class="avatar">${m.icon}</div><b>${esc(m.name)}</b><div class="metric" style="font-size:19px;margin-top:7px">${won(netFor(m.id))}</div><div class="sub">누적 저축 ${won(totalSavings(m.id))}</div></div>`).join('');
+ let m=data.missions.find(x=>!x.done);document.getElementById('homeMission').innerHTML=m?`<b>${esc(m.title)}</b><p class="sub">${esc(m.detail)}</p>`:'이번 달 미션을 모두 완료했어요! 가족 모두 수고했어요 🎉';
+ let years={};data.checkpoints.forEach(c=>years[c.date?.slice(0,4)]=c.net);let entries=Object.entries(years).sort();document.getElementById('homeChart').innerHTML=entries.length?entries.map(([y,v])=>`<div class="barrow"><span>${y}년</span><div class="bar"><i style="width:${Math.min(100,Math.max(0,v/(goal||1)*100))}%"></i></div><b>${won(v)}</b></div>`).join(''):'<div class="empty">연말 또는 분기별 자산 점검을 기록하면 성장 흐름이 여기에 표시됩니다.</div>';
+}
+function renderPeople(){populateSelects();document.getElementById('memberCards').innerHTML=data.members.map(m=>`<div class="card member"><div class="avatar">${m.icon}</div><b>${esc(m.name)}</b><div class="metric" style="font-size:21px;margin-top:8px">${won(netFor(m.id))}</div><div class="sub">자산 - 부채</div><div class="sub">누적 저축 ${won(totalSavings(m.id))}</div></div>`).join('');
+ document.getElementById('balanceList').innerHTML=data.balances.length?`<table class="table"><tr><th>구성원</th><th>항목</th><th>구분</th><th>금액</th><th></th></tr>${data.balances.slice().reverse().map(x=>`<tr><td>${esc(data.members.find(m=>m.id===x.member)?.name||'')}</td><td>${esc(x.name)}</td><td>${x.type==='asset'?'자산':'부채'}</td><td>${won(x.amount)}</td><td><button class="btn small danger" onclick="delItem('balances','${x.id}')">삭제</button></td></tr>`).join('')}</table>`:'<div class="empty">아직 등록된 자산·부채가 없습니다. 집과 자동차 등은 현재 가치와 대출 잔액을 각각 입력하세요.</div>'}
+function renderSavings(){let sums=data.members.map(m=>({m,v:totalSavings(m.id)}));document.getElementById('savingSummary').innerHTML=sums.map(x=>`<div class="barrow"><span>${esc(x.m.name)}</span><div class="bar"><i style="width:${Math.min(100,totalSavings(x.m.id)/(Math.max(1,...sums.map(y=>y.v))*1)*100)}%"></i></div><b>${won(x.v)}</b></div>`).join('')+`<div class="notice">저축 기록은 현금흐름을 보는 참고 자료입니다. 이미 자산 항목에 포함한 예금을 다시 더하면 순자산이 중복 계산될 수 있어요. 순자산은 자산·부채 입력란을 기준으로 확인하세요.</div>`;
+ document.getElementById('savingList').innerHTML=data.savings.length?`<table class="table"><tr><th>날짜</th><th>구성원</th><th>메모</th><th>금액</th><th></th></tr>${data.savings.slice().sort((a,b)=>b.date.localeCompare(a.date)).slice(0,40).map(x=>`<tr><td>${esc(x.date)}</td><td>${esc(data.members.find(m=>m.id===x.member)?.name||'')}</td><td>${esc(x.memo)}</td><td>${won(x.amount)}</td><td><button class="btn small danger" onclick="delItem('savings','${x.id}')">삭제</button></td></tr>`).join('')}</table>`:'<div class="empty">첫 저축 기록을 추가해 보세요.</div>'}
+const habitsList=['오늘 불필요한 소비를 점검했다','저축 또는 자산 현황을 확인했다','경제 공부나 소득 역량 향상에 3분 투자했다'];
+function renderHabits(){let key=new Date().toISOString().slice(0,10),v=data.habits[key]||[];document.getElementById('habitChecks').innerHTML=habitsList.map((h,i)=>`<label class="item"><input type="checkbox" id="h${i}" ${v.includes(i)?'checked':''}> ${h}</label>`).join('');document.getElementById('habitStatus').textContent=v.length===3?'오늘의 세 가지 습관을 모두 실천했어요!':`오늘 ${v.length}/3개 실천`;
+ let month=key.slice(0,7),days=Object.entries(data.habits).filter(([d,a])=>d.startsWith(month)&&a.length===3).length;document.getElementById('habitStats').innerHTML=`<div class="metric">${days}일</div><div class="sub">이번 달 3가지 습관을 모두 실천한 날</div>`}
+function renderMissions(){document.getElementById('missionList').innerHTML=data.missions.length?data.missions.map(m=>`<div class="item row"><div style="flex:1"><b>${esc(m.title)}</b><p>${esc(m.detail)}</p></div><label style="font-size:12px;white-space:nowrap"><input type="checkbox" ${m.done?'checked':''} onchange="toggleMission('${m.id}',this.checked)"> 완료</label></div>`).join(''):'<div class="empty">새 가족 미션을 추가해 보세요.</div>'}
+const lessons=[
+['기회비용','무언가를 산다는 것은 가격만큼의 돈을 쓰는 일이 아닙니다. 그 돈으로 할 수 있었던 다른 선택을 포기하는 일이기도 합니다.','구매를 하루 미루고, 그 돈의 다른 용도를 생각해 보세요.'],
+['순자산','순자산은 내가 가진 자산에서 갚아야 할 부채를 뺀 금액입니다. 소득이나 집의 가격만으로 부자를 판단하지 않습니다.','가족의 자산과 부채를 같은 기준일로 점검해 보세요.'],
+['소비와 만족','만족을 주는 소비와 순간적인 충동을 구분합니다. 가격보다 사용 빈도와 실제 효용을 먼저 따져봅니다.','최근 구매 중 가장 만족스러운 것과 후회한 것을 비교해 보세요.'],
+['소득 역량','절약에는 한계가 있지만, 기술·경험·신뢰를 키우면 소득을 높일 가능성이 생깁니다.','이번 주 소득 역량을 높일 작은 행동 하나를 정하세요.'],
+['비상자금','예상하지 못한 지출에 대비한 현금은 고금리 부채나 급한 자산 매각을 피하도록 도와줍니다.','가족의 필수 생활비와 비상자금 목표를 점검하세요.'],
+['복리와 시간','수익률은 보장되지 않지만, 장기간 꾸준히 저축하고 재투자하면 시간이 자산 형성에 기여할 수 있습니다.','높은 수익을 약속하는 제안보다 위험과 비용을 먼저 확인하세요.'],
+['부채의 비용','대출은 미래 소득의 일부를 미리 사용하는 것입니다. 금리뿐 아니라 상환 조건과 현금 여유를 함께 봐야 합니다.','대출 금리, 잔액, 중도상환수수료를 확인해 보세요.'],
+['가족의 경제 대화','돈 이야기는 비난이나 비교가 아니라 목표와 선택을 공유하는 대화여야 합니다.','서로의 목표를 듣고 응원 한마디를 건네세요.'],
+['나눔의 지속성','도움은 일회성 지출뿐 아니라 지속 가능한 역량과 구조를 만들 때 더 오래 이어질 수 있습니다.','우리가 돕고 싶은 대상과 필요한 도움을 구체적으로 생각해 보세요.']
+];
+function renderLesson(){let l=lessons[data.lessonIndex%lessons.length];document.getElementById('lesson').innerHTML=`<span class="pill">LESSON ${data.lessonIndex+1} / ${lessons.length}</span><h2>${l[0]}</h2><p style="line-height:1.8">${l[1]}</p><div class="notice"><b>오늘의 실천</b><br>${l[2]}</div><p class="sub">${data.readLessons.includes(data.lessonIndex)?'✓ 읽음 완료':''}</p>`;document.getElementById('lessonNote').value=data.lessonNotes.find(x=>x.index===data.lessonIndex)?.note||''}
+function renderRoadmap(){document.getElementById('goalAmount').value=data.goal;document.getElementById('goalDate').value=data.goalDate;document.getElementById('checkpointList').innerHTML=data.checkpoints.length?`<table class="table"><tr><th>점검일</th><th>순자산</th><th>메모</th><th></th></tr>${data.checkpoints.slice().reverse().map(c=>`<tr><td>${esc(c.date)}</td><td>${won(c.net)}</td><td>${esc(c.memo)}</td><td><button class="btn small danger" onclick="delItem('checkpoints','${c.id}')">삭제</button></td></tr>`).join('')}</table>`:'<div class="empty">분기 또는 연말마다 순자산을 기록하세요.</div>';
+ let now=new Date(),end=new Date(data.goalDate+'T00:00:00'),months=Math.max(1,(end.getFullYear()-now.getFullYear())*12+end.getMonth()-now.getMonth()),gap=Math.max(0,data.goal-totalNet());document.getElementById('pace').innerHTML=`<div class="metric">${won(gap/months)} / 월</div><div class="sub">현재 순자산 기준, 목표일까지 필요한 단순 월평균 증가액 (${months}개월 기준)</div><p class="sub">투자수익, 물가, 세금, 자산가격 변동은 반영하지 않은 참고치입니다. 목표가 현실적인지 정기적으로 다시 점검하세요.</p>`}
+function renderGiving(){document.getElementById('givingIdea').value=data.givingIdea||'';document.getElementById('givingList').innerHTML=data.giving.length?data.giving.slice().reverse().map(x=>`<div class="item"><b>${esc(x.title)}</b><p>${esc(x.date)} · ${won(x.amount)} · ${esc(x.memo)}</p><button class="btn small danger" onclick="delItem('giving','${x.id}')">삭제</button></div>`).join(''):'<div class="empty">작은 나눔의 아이디어와 실천을 기록하세요.</div>'}
+function renderJournal(){document.getElementById('journalList').innerHTML=data.journal.length?data.journal.slice().reverse().map(x=>`<div class="item"><b>${esc(x.title)}</b><p>${esc(x.date)} · ${esc(x.note)}</p><button class="btn small danger" onclick="delItem('journal','${x.id}')">삭제</button></div>`).join(''):'<div class="empty">우리 가족의 첫 번째 성장 기록을 남겨보세요.</div>'}
+function renderAll(){renderHome();renderPeople();renderSavings();renderHabits();renderMissions();renderLesson();renderRoadmap();renderGiving();renderJournal()}
+function addBalance(){let amount=num(document.getElementById('balAmount').value),name=document.getElementById('balName').value.trim();if(!name||!amount)return alert('항목명과 금액을 입력하세요.');data.balances.push({id:uid(),member:document.getElementById('balMember').value,type:document.getElementById('balType').value,name,amount});document.getElementById('balName').value='';document.getElementById('balAmount').value='';save()}
+function addSaving(){let amount=num(document.getElementById('saveAmount').value),date=document.getElementById('saveDate').value;if(!amount||!date)return alert('날짜와 저축 금액을 입력하세요.');data.savings.push({id:uid(),member:document.getElementById('saveMember').value,date,amount,memo:document.getElementById('saveMemo').value.trim()});document.getElementById('saveAmount').value='';document.getElementById('saveMemo').value='';save()}
+function saveHabits(){let key=new Date().toISOString().slice(0,10);data.habits[key]=habitsList.map((_,i)=>document.getElementById('h'+i).checked?i:null).filter(x=>x!==null);save()}
+function toggleMission(id,v){let m=data.missions.find(x=>x.id===id);if(m)m.done=v;save()}
+function addMissionPrompt(){let title=prompt('새 가족 미션 제목을 입력하세요.');if(!title)return;let detail=prompt('미션 설명(선택)')||'';data.missions.push({id:uid(),title,detail,done:false});save()}
+function nextLesson(d){data.lessonIndex=(data.lessonIndex+d+lessons.length)%lessons.length;renderLesson()}
+function markLesson(){if(!data.readLessons.includes(data.lessonIndex))data.readLessons.push(data.lessonIndex);save()}
+function saveLessonNote(){let note=document.getElementById('lessonNote').value;let x=data.lessonNotes.find(x=>x.index===data.lessonIndex);if(x)x.note=note;else data.lessonNotes.push({index:data.lessonIndex,note});save();alert('생각을 저장했어요.')}
+function saveGoal(){data.goal=num(document.getElementById('goalAmount').value)||1000000000;data.goalDate=document.getElementById('goalDate').value||'2036-10-31';save();alert('목표를 저장했어요.')}
+function addCheckpoint(){let net=totalNet(),memo=prompt('점검 메모(선택)','가족 자산 점검');data.checkpoints.push({id:uid(),date:new Date().toISOString().slice(0,10),net,memo:memo||''});save()}
+function saveGiving(){data.givingIdea=document.getElementById('givingIdea').value;save();alert('저장했어요.')}
+function addGiving(){let title=prompt('나눔 활동 또는 아이디어');if(!title)return;let amount=num(prompt('금액(없으면 0)', '0'));let memo=prompt('내용 메모','')||'';data.giving.push({id:uid(),title,amount,memo,date:new Date().toISOString().slice(0,10)});save()}
+function addJournal(){let title=prompt('오늘의 기록 제목');if(!title)return;let note=prompt('기억하고 싶은 내용','')||'';data.journal.push({id:uid(),title,note,date:new Date().toISOString().slice(0,10)});save()}
+function delItem(key,id){if(!confirm('이 기록을 삭제할까요?'))return;data[key]=data[key].filter(x=>x.id!==id);save()}
+function openMemberForm(){let m=data.members;let names=m.map(x=>x.name).join(', ');let input=prompt('가족 구성원 이름을 쉼표로 구분해 입력하세요.',names);if(!input)return;let vals=input.split(',').map(x=>x.trim()).filter(Boolean);if(vals.length!==4)return alert('현재 버전은 네 명의 가족 구성원을 기준으로 합니다. 네 이름을 입력하세요.');data.members.forEach((x,i)=>x.name=vals[i]);save()}
+function exportData(){let blob=new Blob([JSON.stringify({...data,exportedAt:new Date().toISOString(),app:'OUR FAMILY 10B'},null,2)],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='our-family-10b-backup-'+new Date().toISOString().slice(0,10)+'.json';a.click();URL.revokeObjectURL(a.href)}
+function mergeById(a,b){let map=new Map((a||[]).map(x=>[x.id,x]));(b||[]).forEach(x=>{if(!map.has(x.id))map.set(x.id,x)});return [...map.values()]}
+function importData(){let f=document.getElementById('importFile').files[0];if(!f)return alert('백업 파일을 선택하세요.');let r=new FileReader();r.onload=()=>{try{let x=JSON.parse(r.result);if(!x.members||!x.savings)throw Error();['balances','savings','missions','checkpoints','giving','journal'].forEach(k=>data[k]=mergeById(data[k],x[k]||[]));data.members=x.members;data.goal=x.goal||data.goal;data.goalDate=x.goalDate||data.goalDate;data.habits={...data.habits,...(x.habits||{})};data.lessonNotes=mergeById(data.lessonNotes,x.lessonNotes||[]);data.readLessons=[...new Set([...data.readLessons,...(x.readLessons||[])])];if(x.givingIdea)data.givingIdea=x.givingIdea;save();alert('가져오기를 완료했어요. 가족 구성원 이름과 자산 내역을 확인하세요.')}catch(e){alert('올바른 OUR FAMILY 10B 백업 파일이 아닙니다.')}};r.readAsText(f)}
+function resetData(){if(!confirm('정말 모든 데이터를 초기화할까요? 이 작업은 되돌릴 수 없습니다.'))return;localStorage.removeItem(KEY);data=structuredClone(defaultData);save()}
+document.getElementById('today').textContent=new Intl.DateTimeFormat('ko-KR',{dateStyle:'full'}).format(new Date());
+document.getElementById('saveDate').value=new Date().toISOString().slice(0,10);
+renderAll();
+if('serviceWorker' in navigator && location.protocol.startsWith('http'))window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+</script>
+</body></html>

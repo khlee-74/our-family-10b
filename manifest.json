@@ -1,0 +1,17 @@
+{
+  "name": "OUR FAMILY 10B",
+  "short_name": "FAMILY 10B",
+  "description": "우리 가족의 경제적 자유 프로젝트",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#102b50",
+  "icons": [
+    {
+      "src": "assets/yulim-logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
